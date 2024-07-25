@@ -1,0 +1,171 @@
+/* styles.css */
+body, html {
+    margin: 10px;
+    padding: 10px;
+}
+
+#linkeo{
+	color: white;
+        text-decoration: underline;
+        cursor: pointer;
+
+}
+
+.nav-item:hover {
+    box-shadow: 0 4px 8px rgba(37, 146, 170, 0.8); /* Sombra celeste */
+}
+
+.nav-item {
+
+    font-family: "Roboto Condensed", sans-serif;
+color: rgba(33, 37, 41, 0.75)
+}
+
+#aboutMe, #tabla{
+	text-align:justify;
+	font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+	color:white;
+}
+
+.video-container2,.video-container3  {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+	padding:10px
+}
+
+.scroll-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      background-color: white;
+      border: 2px solid #333;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      z-index: 1000;
+    }
+
+    .scroll-to-top:hover {
+      background-color: #D87093;
+    }
+
+    .scroll-to-top svg {
+      width: 24px;
+      height: 24px;
+      fill: #D87093;
+      transition: fill 0.3s;
+    }
+
+    .scroll-to-top.active {
+      background-color: #D87093;
+    }
+
+    .scroll-to-top.active svg {
+      fill: white;
+    }
+
+.video-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1; /* Asegura que el video esté detrás del contenido */
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+.content {
+    position: relative;
+    z-index: 1; /* Asegura que el texto esté delante del video */
+    color: white;
+    text-align: center;
+    padding: 20px; /* Añade relleno alrededor del texto */
+}
+
+#barraProgreso{
+	    align-items: stretch;
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+	position: fixed;
+      z-index: 999; /* Asegura que esté por encima del contenido */
+}
+#quieto{
+position: fixed;
+top: 0;
+width: 100%;
+padding: 10px 0;
+z-index: 1000;
+
+}
+
+#nav-bar{
+	background-color:white;
+}
+
+li{
+	list-style-type: none;
+}
+h1{
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+      
+}
+#tarjeta{
+	font-size:25px;
+	 font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    margin: 130px;
+    text-align: justify;
+    color: white;
+}
+ h3,h5,#proyect{
+    font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    margin: 0;
+    text-align: center;
+    color: white;
+ }
+#footer{
+	font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    margin: 0;
+    text-align: center;
+    color: black;
+background-image: radial-gradient(
+    farthest-corner at 50% 50%,
+    #FFC5C5, /* rosa pastel */
+    #FFEFD5, /* papaya pastel */
+    #FFDAB9, /* peach pastel */
+    #87CEEB /* azul pastel */
+  );
+  background-size: 300px 300px; /* tamaño del fondo */
+  background-position: center; /* centrar el fondo */
+}
+
