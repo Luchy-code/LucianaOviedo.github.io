@@ -129,7 +129,7 @@ li{
 h1{
     margin: 0;
     text-align: center;
-    color: black;
+    color: white;
     font-family: "Domine", serif;
     font-optical-sizing: auto;
       
@@ -148,8 +148,8 @@ h1{
   font-optical-sizing: auto;
   font-style: normal;
     margin: 0;
-    text-align: center;
-    color: white;
+    text-align: justify;
+    color: black;
  }
 #footer{
 	font-family: "Roboto Condensed", sans-serif;
