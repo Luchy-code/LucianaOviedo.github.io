@@ -27,7 +27,7 @@ color: rgba(33, 37, 41, 0.75)
     font-optical-sizing: auto;
     font-style: normal;
     margin: 0;
-	color:white;
+	color:black;
 }
 
 .video-container2,.video-container3  {
@@ -96,7 +96,7 @@ color: rgba(33, 37, 41, 0.75)
 .content {
     position: relative;
     z-index: 1; /* Asegura que el texto esté delante del video */
-    color: white;
+    color: black;
     text-align: center;
     padding: 20px; /* Añade relleno alrededor del texto */
 }
@@ -129,7 +129,7 @@ li{
 h1{
     margin: 0;
     text-align: center;
-    color: white;
+    color: black;
     font-family: "Domine", serif;
     font-optical-sizing: auto;
       
@@ -141,7 +141,7 @@ h1{
   font-style: normal;
     margin: 130px;
     text-align: justify;
-    color: white;
+    color: black;
 }
  h3,h5,#proyect{
     font-family: "Roboto Condensed", sans-serif;
