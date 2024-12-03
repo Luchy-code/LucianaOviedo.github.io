@@ -1,8 +1,18 @@
 /* styles.css */
 body, html {
-    margin: 10px;
-    padding: 10px;
+    margin: 20px;
+    padding-left: 20px;
+	padding-right: 20px;
 }
+
+.btn-group-vertical {
+  position: fixed;
+  top: 50%;  /* Posición en el centro vertical */
+  left: 0;   /* Alinea el bloque a la izquierda */
+  transform: translateY(-50%); /* Ajusta para centrar verticalmente */
+  padding: 10px;
+}
+
 
 #linkeo{
 	color: white;
@@ -126,7 +136,7 @@ z-index: 1000;
 li{
 	list-style-type: none;
 }
-h1{
+h1, .tit{
     margin: 0;
     text-align: center;
     color: white;
