@@ -1,426 +1,472 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <title>Luciana Oviedo</title>
-  <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1"> 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link href="https: //fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
-<link rel="icon" type="icon/png" href="img/vineta.png">
-<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-<div id="google_translate_element"></div>
-
-        <div className="bg-background text-foreground font-serif" >
-            <header id="header" className="py-8 px-4 md:px-6 lg:px-8 bg-primary text-primary-foreground">
-              <div className="container mx-auto max-w-5xl">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                  <div class="video-container">
-                    <div>
-                    <br>
-                    <h1 className="text-4xl font-bold mb-2" class="tit" ><b>Hello there!</b></h1>
-                    <h3 className="text-lg text-primary-foreground/80" class="tit" style="text-align: center;"><i>I'm Luciana Oviedo</i>, a student of the bachelor's degree in systems</h3> 
-					<h5 className="text-lg text-primary-foreground/80" class="tit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brightness-high" viewBox="0 0 16 16" style="text-align: center;">
-  <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6m0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/>
-</svg> Argentina, Buenos Aires</h5>
-                    <br>
-                  </div>
-                    <video autoplay muted loop id="background-video">
-                        <source src="img/back.mp4" type="video/mp4">
-                        Tu navegador no soporta la etiqueta de video.
-                    </video>
-                    </div>
-                    </div>
-                </div>
-            </header>
-
-<ul class="nav justify-content-end"  id="nav-bar">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#aboutMe">About me</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#contacMe">Contac me</a>
-  </li>
-<li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">More</a>
-    <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#academic">Studies</a></li>
-      <li><a class="dropdown-item" href="#proyect">Proyects</a></li>
-      <li><a class="dropdown-item" href="#strength">Strengths</a></li>
-      <li><a class="dropdown-item" href="#weak">Weaknesses</a></li>
-    </ul>
-  </li>
-</ul>
-<div class="scroll-to-top" id="scrollToTopBtn" onclick="scrollToTop()">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2l-5.5 9h11z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
-  </div>
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_tab" name="shell-type"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "outline-variant": "#c4d6eb", "error": "#ba1a1a", "tertiary-fixed-dim": "#a9ccff", "primary-fixed-dim": "#9fc5ff", "on-tertiary-fixed-variant": "#294e77", "inverse-primary": "#9fc5ff", "on-tertiary-container": "#fffbff", "surface-variant": "#dce8f5", "background": "#f7faff", "secondary-fixed": "#e2ebf5", "on-secondary-fixed-variant": "#40556c", "on-secondary": "#ffffff", "on-tertiary": "#ffffff", "secondary-container": "#e1eaf4", "secondary": "#526880", "surface-container-low": "#eff5fc", "on-primary": "#ffffff", "surface-container-lowest": "#ffffff", "tertiary": "#315f91", "surface-container-high": "#e5eef7", "error-container": "#ffdad6", "tertiary-fixed": "#dbeaff", "on-primary-container": "#fffbff", "surface-tint": "#245b91", "on-primary-fixed-variant": "#244f7b", "inverse-on-surface": "#eff4fa", "surface-dim": "#d1dfed", "tertiary-container": "#5c86b4", "on-error": "#ffffff", "primary-fixed": "#d6e7fb", "surface-container-highest": "#dce8f5", "on-tertiary-fixed": "#132d4b", "on-background": "#182638", "surface-container": "#eaf0f7", "on-secondary-fixed": "#1a2e45", "on-surface": "#182638", "primary-container": "#477eb8", "surface-bright": "#f7faff", "outline": "#758ba3", "surface": "#f7faff", "on-surface-variant": "#40566d", "on-error-container": "#93000a", "on-primary-fixed": "#102d50", "secondary-fixed-dim": "#becde0", "on-secondary-container": "#465c74", "primary": "#245b91", "inverse-surface": "#293c53" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-xl": "3rem", "space-sm": "0.5rem", "margin": "3rem", "space-md": "1rem", "space-lg": "1.75rem", "margin-mobile": "1.25rem", "space-xs": "0.25rem", "gutter": "1.5rem", "gutter-mobile": "1rem" }, fontFamily: { "headline-lg-mobile": ["Playfair Display"], "body-md": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "headline-md": ["Playfair Display"], "display-hero": ["Playfair Display"], "body-lg": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "headline-lg": ["Playfair Display"], "title-md": ["Plus Jakarta Sans"], "display-hero-mobile": ["Playfair Display"], "code-tech": ["Plus Jakarta Sans"], "headline-sm": ["Playfair Display"] }, fontSize: { "headline-lg-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "22px", "fontWeight": "400" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "600" }], "headline-md": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "500" }], "display-hero": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "26px", "fontWeight": "400" }], "label-lg": ["13px", { "lineHeight": "18px", "letterSpacing": "0.04em", "fontWeight": "600" }], "headline-lg": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.015em", "fontWeight": "600" }], "title-md": ["17px", { "lineHeight": "24px", "letterSpacing": "-0.005em", "fontWeight": "600" }], "display-hero-mobile": ["38px", { "lineHeight": "46px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "code-tech": ["12px", { "lineHeight": "18px", "fontWeight": "500" }], "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "500" }] } } } };</script><style>@layer base{html,body{width:100%;margin:0;padding:0;background-color:#f7faff;color:#182638;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style></head><body class="bg-surface font-body-md text-body-md text-on-surface flex flex-col min-h-screen antialiased selection:bg-primary-fixed selection:text-on-primary-fixed">
+<main class="flex-1 flex flex-col relative w-full pt-2 pb-28 bg-surface px-margin-mobile">
+  <div class="flex flex-col w-full space-y-space-lg">
+<!-- HERO SECTION -->
+<section id="sobre-mi" class="flex flex-col space-y-space-md pt-2">
+<!-- Recruiter Availability Pill -->
+<div class="inline-flex items-center self-start gap-2 px-3 py-1.5 rounded-full bg-surface-container-high shadow-sm">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+</span>
+<span class="font-label-sm text-label-sm text-on-surface uppercase tracking-wider font-semibold">
+        Disponible Verano: Part-Time / Eventual 
+      </span>
+</div>
+<!-- Editorial Header & Profile Pairing -->
+<div class="flex flex-col space-y-space-sm">
+<div class="flex items-center justify-between gap-4">
+<div class="flex-1 min-w-0">
+<p class="font-label-lg text-label-lg text-primary uppercase tracking-widest font-semibold mb-1">
+            Estudiante de Licenciatura de Sistemas &amp; Robotica
+          </p>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface tracking-tight leading-tight">
+            Luciana <span class="italic font-normal">Oviedo W.</span>
+</h1>
+</div>
+<!-- Circular Editorial Portrait Container -->
+<div class="relative shrink-0">
+<div class="w-20 h-20 rounded-full overflow-hidden shadow-md bg-surface-container-high">
+<img class="w-full h-full object-cover" data-alt="foto perfil" src="img/perfil.jpg">
+</div>
+<span class="absolute bottom-0 right-0 w-6 h-6 rounded-full bg-primary text-on-primary flex items-center justify-center text-[13px] shadow-sm">
+<span class="material-symbols-outlined text-[14px]">verified</span>
+</span>
+</div>
+</div>
+<!-- Elevator Proposition -->
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+        Automatizo flujos críticos, garantizo calidad de software con rigor analítico y diseño interfaces centradas en el usuario. Enfocada en toma de decisiones ágiles y sistemas eficientes.
+      </p>
+</div>
+<!-- Fast Recruiter CTAs -->
+<div class="flex flex-col sm:flex-row gap-2.5 pt-1">
+<a class="h-12 px-6 rounded-full bg-on-background text-surface font-title-md text-title-md flex items-center justify-center gap-2 shadow-md hover:bg-primary transition-all active:scale-[0.98]" href="mailto:loviedowanuffelen@gmail.com?subject=Propuesta%20Pasant%C3%ADa%20Verano%20-%20Luciana%20Oviedo">
+<span class="material-symbols-outlined text-[19px]">mail</span>
+<span class="">Contratar para Verano</span>
+</a>
+<div class="grid grid-cols-2 gap-2">
+<a class="h-12 px-4 rounded-full bg-surface-container-low text-on-surface font-label-lg text-label-lg flex items-center justify-center gap-1.5 shadow-sm hover:bg-surface-container-high transition-all" href="https://www.linkedin.com/in/lucianaoviedowanuffelen/" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">share</span>
+<span class="">LinkedIn</span>
+</a>
 
 </div>
+</div>
+<!-- Credential Meta Strip -->
+<div class="p-3.5 rounded-xl bg-surface-container-low flex flex-wrap items-center justify-between gap-y-2 gap-x-4 shadow-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">school</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">UNGS • 70% Aprobado (26 materias)</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">pin_drop</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">GBA Norte / Remoto</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">translate</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Inglés B2 Intermedio Alto</span>
+</div>
+</div>
+</section>
+<!-- RECRUITER HIGHLIGHTS / BENTO GRID -->
+<section class="flex flex-col space-y-space-sm">
+<div class="flex items-baseline justify-between">
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Pilares de Especialidad</h2>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Perfil Técnico</span>
+</div>
+<div class="grid grid-cols-1 gap-3">
+<!-- QA & Automation Tile -->
+<div class="p-4 rounded-xl bg-surface-container-low shadow-sm flex flex-col justify-between space-y-3">
+<div class="flex items-start justify-between">
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed">
+<span class="material-symbols-outlined text-[20px]">smart_toy</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-code-tech text-code-tech">Make • n8n</span>
+</div>
+<div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold">Automatización IA &amp; Procesos</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+            Diseño e integración de pipelines autónomos con Power Automate, webhooks y agentes low-code para eliminar redundancias operativas.
+          </p>
+</div>
+<div class="flex flex-wrap gap-1.5 pt-1">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm">Power Automate</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm">n8n Workflows</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm">Webhooks</span>
+</div>
+</div>
+<!-- QA Testing Tile -->
+<div class="p-4 rounded-xl bg-surface-container-low shadow-sm flex flex-col justify-between space-y-3">
+<div class="flex items-start justify-between">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[20px]">bug_report</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-code-tech text-code-tech">JUnit • Selenium</span>
+</div>
+<div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold">Testing QA &amp; Aseguramiento</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+            Planes de prueba funcionales, automatización E2E con Cucumber, TestNG y verificación de consistencia transaccional con SQL.
+          </p>
+</div>
+<div class="flex flex-wrap gap-1.5 pt-1">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm">Cucumber BDD</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm">Selenium Suite</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm">MySQL</span>
+</div>
+</div>
+</div>
+</section>
+<!-- TRAYECTORIA Y EXPERIENCIA -->
+<section class="flex flex-col space-y-space-sm">
+<div class="flex items-baseline justify-between">
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Experiencia Laboral</h2>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Trayectoria</span>
+</div>
+<!-- Timeline Wrapper -->
+<div class="flex flex-col space-y-3">
+<!-- Card Ford -->
+<div class="p-4 rounded-xl bg-surface-container-low shadow-sm flex flex-col space-y-2.5">
+<div class="flex items-start justify-between gap-2">
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Automotriz Global</span>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold">Pasante de Sistemas</h3>
+<p class="font-body-md text-body-md text-secondary font-medium">Ford Motor Company</p>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-semibold shrink-0">
+            Abr 2026 – Oct 2027
+          </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Desarrollo y automatización de soluciones digitales orientadas a optimizar procesos y mejorar sustancialmente la experiencia del usuario y tiempos de ciclo.
+        </p>
+<div class="p-2.5 rounded-lg bg-surface-container flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">verified</span>
+<span class="font-label-sm text-label-sm text-on-surface font-medium">Foco: Eficiencia de procesos corporativos y UX interna</span>
+</div>
+</div>
+<!-- Card Cummins -->
+<div class="p-4 rounded-xl bg-surface-container-low shadow-sm flex flex-col space-y-2.5">
+<div class="flex items-start justify-between gap-2">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold tracking-wider">Industrial &amp; Energía</span>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold">Pasante de Compras Indirectas</h3>
+<p class="font-body-md text-body-md text-secondary font-medium">Cummins Inc</p>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm font-semibold shrink-0">
+            Ago 2025 – Abr 2026
+          </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Alta y gestión integral de proveedores, contratos, órdenes de compra y facturación. Desarrollo e implementación de sistema propio con herramientas Microsoft para agilizar operaciones.
+        </p>
+<div class="flex flex-wrap gap-1.5 pt-1">
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-code-tech text-code-tech">Sharepoint y Microsoft </span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-code-tech text-code-tech">Gestión Proveedores</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-code-tech text-code-tech">Power Plataform</span>
+</div>
+</div>
+</div>
+</section>
+<!-- STACK TÉCNICO INTERACTIVO -->
+<section class="flex flex-col space-y-space-sm">
+<div class="flex items-baseline justify-between">
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Habilidades Técnicas</h2>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Stack Verificado</span>
+</div>
+<!-- Category Tabs Filter (Vanilla JS) -->
+<div class="flex items-center gap-1.5 overflow-x-auto pb-1" id="skill-filter-bar">
+<button class="skill-tab active px-3.5 py-1.5 rounded-full bg-on-background text-surface font-label-sm text-label-sm uppercase tracking-wider font-semibold transition-all" onclick="filterSkills('all', this)">
+        Todos
+      </button>
+<button class="skill-tab px-3.5 py-1.5 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm uppercase tracking-wider font-semibold transition-all" onclick="filterSkills('qa', this)">
+        QA &amp; Test
+      </button>
+<button class="skill-tab px-3.5 py-1.5 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm uppercase tracking-wider font-semibold transition-all" onclick="filterSkills('auto', this)">
+        IA &amp; Automatización
+      </button>
+<button class="skill-tab px-3.5 py-1.5 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm uppercase tracking-wider font-semibold transition-all" onclick="filterSkills('dev', this)">
+        Dev &amp; DB
+      </button>
+<button class="skill-tab px-3.5 py-1.5 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm uppercase tracking-wider font-semibold transition-all shrink-0" onclick="filterSkills('data-admin', this)">
+        Datos &amp; Administración
+      </button>
+<button class="skill-tab px-3.5 py-1.5 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm uppercase tracking-wider font-semibold transition-all shrink-0" onclick="filterSkills('hardware', this)">Hardware &amp; Gamedev</button></div>
+<!-- Skills Cloud Grid -->
+<div class="grid grid-cols-2 gap-2" id="skills-grid">
+<!-- QA -->
+<div class="skill-card p-3 rounded-xl bg-surface-container-low flex items-center gap-2.5 shadow-sm" data-cat="qa">
+<span class="w-2 h-2 rounded-full bg-primary shrink-0"></span>
+<div class="min-w-0">
+<p class="font-label-lg text-label-lg text-on-surface font-semibold truncate">Selenium Suite</p>
+<p class="font-code-tech text-code-tech text-secondary">Automatización Web</p>
+</div>
+</div>
+<div class="skill-card p-3 rounded-xl bg-surface-container-low flex items-center gap-2.5 shadow-sm" data-cat="qa">
+<span class="w-2 h-2 rounded-full bg-primary shrink-0"></span>
+<div class="min-w-0">
+<p class="font-label-lg text-label-lg text-on-surface font-semibold truncate">Cucumber &amp; JUnit</p>
+<p class="font-code-tech text-code-tech text-secondary">BDD &amp; Unit Tests</p>
+</div>
+</div>
+<div class="skill-card p-3 rounded-xl bg-surface-container-low flex items-center gap-2.5 shadow-sm" data-cat="qa">
+<span class="w-2 h-2 rounded-full bg-primary shrink-0"></span>
+<div class="min-w-0">
+<p class="font-label-lg text-label-lg text-on-surface font-semibold truncate">TestNG</p>
+<p class="font-code-tech text-code-tech text-secondary">Testing Framework</p>
+</div>
+</div>
+<!-- AUTO -->
+<div class="skill-card p-3 rounded-xl bg-surface-container-low flex items-center gap-2.5 shadow-sm" data-cat="auto">
+<span class="w-2 h-2 rounded-full bg-primary shrink-0"></span>
+<div class="min-w-0">
+<p class="font-label-lg text-label-lg text-on-surface font-semibold truncate">n8n &amp; Make</p>
+<p class="font-code-tech text-code-tech text-secondary">Workflows &amp; IA</p>
+</div>
+</div>
+<div class="skill-card p-3 rounded-xl bg-surface-container-low flex items-center gap-2.5 shadow-sm" data-cat="auto">
+<span class="w-2 h-2 rounded-full bg-primary shrink-0"></span>
+<div class="min-w-0">
+<p class="font-label-lg text-label-lg text-on-surface font-semibold truncate">Power Automate</p>
+<p class="font-code-tech text-code-tech text-secondary">RPA Microsoft</p>
+</div>
+</div>
+<!-- DEV & DB -->
+<div class="skill-card p-3 rounded-xl bg-surface-container-low flex items-center gap-2.5 shadow-sm" data-cat="dev">
+<span class="w-2 h-2 rounded-full bg-secondary shrink-0"></span>
+<div class="min-w-0">
+<p class="font-label-lg text-label-lg text-on-surface font-semibold truncate">Java &amp; Python</p>
+<p class="font-code-tech text-code-tech text-secondary">Core Backend</p>
+</div>
+</div>
+<div class="skill-card p-3 rounded-xl bg-surface-container-low flex items-center gap-2.5 shadow-sm" data-cat="dev">
+<span class="w-2 h-2 rounded-full bg-secondary shrink-0"></span>
+<div class="min-w-0">
+<p class="font-label-lg text-label-lg text-on-surface font-semibold truncate">MySQL &amp; Cassandra</p>
+<p class="font-code-tech text-code-tech text-secondary">Relacional &amp; NoSQL</p>
+</div>
+</div>
+<div class="skill-card p-3 rounded-xl bg-surface-container-low flex items-center gap-2.5 shadow-sm" data-cat="dev">
+<span class="w-2 h-2 rounded-full bg-secondary shrink-0"></span>
+<div class="min-w-0">
+<p class="font-label-lg text-label-lg text-on-surface font-semibold truncate">Git &amp; GitHub</p>
+<p class="font-code-tech text-code-tech text-secondary">Control de Versiones</p>
+</div>
+</div>
+<!-- DATA & ADMINISTRATION -->
+<div class="skill-card p-3 rounded-xl bg-surface-container-low flex items-center gap-2.5 shadow-sm" data-cat="data-admin">
+<span class="w-2 h-2 rounded-full bg-primary shrink-0"></span>
+<div class="min-w-0">
+<p class="font-label-lg text-label-lg text-on-surface font-semibold truncate">Microsoft Excel</p>
+<p class="font-code-tech text-code-tech text-secondary">Análisis y gestión de datos</p>
+</div>
+</div>
+<div class="skill-card p-3 rounded-xl bg-surface-container-low flex items-center gap-2.5 shadow-sm" data-cat="data-admin">
+<span class="w-2 h-2 rounded-full bg-primary shrink-0"></span>
+<div class="min-w-0">
+<p class="font-label-lg text-label-lg text-on-surface font-semibold truncate">SharePoint</p>
+<p class="font-code-tech text-code-tech text-secondary">Gestión de información</p>
+</div>
+</div>
+<div class="skill-card p-3 rounded-xl bg-surface-container-low flex items-center gap-2.5 shadow-sm" data-cat="data-admin">
+<span class="w-2 h-2 rounded-full bg-primary shrink-0"></span>
+<div class="min-w-0">
+<p class="font-label-lg text-label-lg text-on-surface font-semibold truncate">Power Platform</p>
+<p class="font-code-tech text-code-tech text-secondary">Automatización de procesos</p>
+</div>
+</div>
+<div class="skill-card p-3 rounded-xl bg-surface-container-low flex items-center gap-2.5 shadow-sm" data-cat="data-admin">
+<span class="w-2 h-2 rounded-full bg-primary shrink-0"></span>
+<div class="min-w-0">
+<p class="font-label-lg text-label-lg text-on-surface font-semibold truncate">pgAdmin &amp; phpMyAdmin</p>
+<p class="font-code-tech text-code-tech text-secondary">Administración de bases de datos</p>
+</div>
+</div>
+<div class="skill-card p-3 rounded-xl bg-surface-container-low flex items-center gap-2.5 shadow-sm" data-cat="data-admin">
+<span class="w-2 h-2 rounded-full bg-primary shrink-0"></span>
+<div class="min-w-0">
+<p class="font-label-lg text-label-lg text-on-surface font-semibold truncate">Microsoft Entra ID</p>
+<p class="font-code-tech text-code-tech text-secondary">Identidades y accesos</p>
+</div>
+</div>
+<div class="skill-card p-3 rounded-xl bg-surface-container-low flex items-center gap-2.5 shadow-sm" data-cat="hardware"><span class="w-2 h-2 rounded-full bg-primary shrink-0"></span><div class="min-w-0"><p class="font-label-lg text-label-lg text-on-surface font-semibold truncate">Unity 6 &amp; C#</p><p class="font-code-tech text-code-tech text-secondary">Game Dev &amp; Assets</p></div></div><div class="skill-card p-3 rounded-xl bg-surface-container-low flex items-center gap-2.5 shadow-sm" data-cat="hardware"><span class="w-2 h-2 rounded-full bg-secondary shrink-0"></span><div class="min-w-0"><p class="font-label-lg text-label-lg text-on-surface font-semibold truncate">Arduino &amp; IoT</p><p class="font-code-tech text-code-tech text-secondary">Robótica y Sensores</p></div></div><div class="skill-card p-3 rounded-xl bg-surface-container-low flex items-center gap-2.5 shadow-sm" data-cat="hardware"><span class="w-2 h-2 rounded-full bg-secondary shrink-0"></span><div class="min-w-0"><p class="font-label-lg text-label-lg text-on-surface font-semibold truncate">Hardware &amp; PC</p><p class="font-code-tech text-code-tech text-secondary">Reparación y Ensamble</p></div></div><div class="skill-card p-3 rounded-xl bg-surface-container-low flex items-center gap-2.5 shadow-sm" data-cat="hardware"><span class="w-2 h-2 rounded-full bg-primary shrink-0"></span><div class="min-w-0"><p class="font-label-lg text-label-lg text-on-surface font-semibold truncate">Sistemas Embebidos</p><p class="font-code-tech text-code-tech text-secondary">Prototipado Físico</p></div></div></div>
+<!-- Soft Competencies Strip -->
+<div class="p-3.5 rounded-xl bg-surface-container-high/60 flex flex-col space-y-2">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold uppercase tracking-wider">Habilidades Interpersonales &amp; Gestión</span>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-lowest text-on-surface font-label-sm text-label-sm shadow-sm">Escucha Activa</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-lowest text-on-surface font-label-sm text-label-sm shadow-sm">Comunicación Asertiva</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-lowest text-on-surface font-label-sm text-label-sm shadow-sm">Marcos Ágiles (Scrum)</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-lowest text-on-surface font-label-sm text-label-sm shadow-sm">Gestión del Tiempo</span>
+</div>
+</div>
+</section>
+<!-- FORMACIÓN & DIPLOMATURAS -->
+<section id="proyectos" class="flex flex-col space-y-space-sm"><div class="flex items-baseline justify-between"><h2 class="font-headline-sm text-headline-sm text-on-surface">Proyectos &amp; Hardware</h2><span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">En Curso &amp; Técnico</span></div><div class="flex flex-col space-y-3"><div class="p-4 rounded-xl bg-surface-container-low shadow-sm flex flex-col space-y-2.5"><div class="flex items-start justify-between gap-2"><div><span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Videojuegos &amp; Interactive</span><h3 class="font-title-md text-title-md text-on-surface font-semibold">Videojuego en Unity 6</h3><p class="font-body-md text-body-md text-secondary font-medium">C# Scripting • Assets &amp; Mecánicas</p></div><span class="px-2.5 py-1 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-semibold shrink-0">En Desarrollo / WIP</span></div><p class="font-body-md text-body-md text-on-surface-variant">Lideré el desarrollo del videojuego en Unity 6, coordinando tareas con herramientas de gestión y asumiendo el rol de Scrum Master para facilitar la planificación y el avance del equipo.</p><div class="flex flex-wrap gap-1.5 pt-1"><span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-code-tech text-code-tech">Unity 6 Engine</span><span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-code-tech text-code-tech">C# Scripting</span><span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-code-tech text-code-tech">Game UX</span><span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-code-tech text-code-tech">Liderazgo de equipo</span><span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-code-tech text-code-tech">Scrum Master</span><span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-code-tech text-code-tech">Herramientas de gestión</span></div></div><div class="grid grid-cols-1 gap-3"><div class="p-4 rounded-xl bg-surface-container-low shadow-sm flex flex-col space-y-2"><div class="flex items-center gap-2"><div class="w-8 h-8 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed shrink-0"><span class="material-symbols-outlined text-[18px]">build</span></div><div class="min-w-0 flex-1"><h3 class="font-title-md text-title-md text-on-surface font-semibold truncate">Hardware &amp; Soporte: PC</h3><span class="font-code-tech text-code-tech text-secondary">Reparación y Mantenimiento</span></div></div><p class="font-body-md text-body-md text-on-surface-variant">Diagnóstico integral, optimización de sistemas operativos, ensamble de equipos y resolución técnica especializada de fallas de hardware.</p></div><div class="p-4 rounded-xl bg-surface-container-low shadow-sm flex flex-col space-y-2"><div class="flex items-center gap-2"><div class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed shrink-0"><span class="material-symbols-outlined text-[18px]">memory</span></div><div class="min-w-0 flex-1"><h3 class="font-title-md text-title-md text-on-surface font-semibold truncate">Sistemas Embebidos &amp; Robótica</h3><span class="font-code-tech text-code-tech text-secondary">Arduino &amp; Sensores</span></div></div><p class="font-body-md text-body-md text-on-surface-variant">Prototipado físico interactivo, automatización básica de sensores y lógica programable con microcontroladores y placas Arduino.</p></div></div></div></section><section class="flex flex-col space-y-space-sm">
+<div class="flex items-baseline justify-between">
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Formación y Certificaciones</h2>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Especialización</span>
+</div>
+<div class="flex flex-col space-y-2.5">
+<!-- Coderhouse -->
+<div class="p-3.5 rounded-xl bg-surface-container-low shadow-sm flex items-start gap-3">
+<div class="w-9 h-9 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">psychology</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center justify-between">
+<h3 class="font-title-md text-title-md text-on-surface font-semibold truncate">Diplomatura: IA Automation</h3>
+<span class="font-code-tech text-code-tech text-secondary">01/2026 - 04/2026</span>
+</div>
+<p class="font-body-md text-body-md text-primary font-medium">CoderHouse</p>
+<p class="font-body-md text-body-md text-on-surface-variant text-xs mt-0.5">Flujos autónomos avanzados en Make y N8N con integración de LLMs.</p>
+</div>
+</div>
+<!-- ICARO -->
+<div class="p-3.5 rounded-xl bg-surface-container-low shadow-sm flex items-start gap-3">
+<div class="w-9 h-9 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">verified_user</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center justify-between">
+<h3 class="font-title-md text-title-md text-on-surface font-semibold truncate">Tester Profesional Certificado</h3>
+<span class="font-code-tech text-code-tech text-secondary">12/2024 - 06/2025</span>
+</div>
+<p class="font-body-md text-body-md text-primary font-medium">ICARO</p>
+<p class="font-body-md text-body-md text-on-surface-variant text-xs mt-0.5">Testing QA funcional, Automation pipelines y bases de datos relacionales MySQL.</p>
+</div>
+</div>
+<!-- EMPUJAR -->
+<div class="p-3.5 rounded-xl bg-surface-container-low shadow-sm flex items-start gap-3">
+<div class="w-9 h-9 rounded-full bg-surface-container-high text-on-surface flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">work</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center justify-between">
+<h3 class="font-title-md text-title-md text-on-surface font-semibold truncate">Programa Empleo</h3>
+<span class="font-code-tech text-code-tech text-secondary">06/2024 - 12/2024</span>
+</div>
+<p class="font-body-md text-body-md text-primary font-medium">Fundación EMPUJAR</p>
+<p class="font-body-md text-body-md text-on-surface-variant text-xs mt-0.5">140 horas de entrenamiento corporativo con asesoramiento de profesionales de empresas.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="p-5 rounded-2xl bg-gradient-to-br from-primary-fixed via-surface-container to-surface-container-low shadow-md flex flex-col space-y-4">
+<div class="flex flex-col space-y-1">
+<span class="font-label-sm text-label-sm text-on-primary-fixed-variant uppercase font-bold tracking-wider">Perfil profesional</span>
+<h2 class="font-headline-md text-headline-md text-on-surface font-semibold leading-snug">Currículum Vitae</h2>
+</div>
+<button class="h-12 px-5 rounded-full bg-on-background text-surface font-title-md text-title-md flex items-center justify-center gap-2 shadow-md hover:bg-primary transition-all active:scale-[0.99]" type="button" onclick="openCvPreview()">
+<span class="material-symbols-outlined text-[20px]">description</span>
+<span>Ver currículum</span>
+</button>
+</section>
+<div id="cv-preview" class="fixed inset-0 z-[100] hidden items-center justify-center bg-on-background/70 p-3 sm:p-6" role="dialog" aria-modal="true" aria-labelledby="cv-preview-title" tabindex="-1" onkeydown="if (event.key === 'Escape') closeCvPreview()" onclick="if (event.target === this) closeCvPreview()">
+<div class="flex h-[90vh] w-full max-w-4xl flex-col overflow-hidden rounded-2xl bg-surface shadow-2xl">
+<div class="flex items-center justify-between gap-3 border-b border-outline-variant px-4 py-3 sm:px-5">
+<h2 id="cv-preview-title" class="font-title-md text-title-md text-on-surface">Currículum Vitae</h2>
+<div class="flex items-center gap-2">
+<a class="h-10 rounded-full bg-primary px-4 text-surface font-label-lg text-label-lg flex items-center justify-center gap-1.5 hover:bg-primary-container transition-all" href="img/Luciana_Oviedo_cv%20(1).pdf" download="Luciana_Oviedo_CV.pdf">
+<span class="material-symbols-outlined text-[18px]">download</span>
+<span>Descargar</span>
+</a>
+<button class="h-10 w-10 rounded-full bg-surface-container-high text-on-surface flex items-center justify-center hover:bg-surface-variant transition-all" type="button" aria-label="Cerrar vista previa del CV" onclick="closeCvPreview()">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+</div>
+<iframe class="min-h-0 flex-1 w-full bg-surface-container-low" src="img/Luciana_Oviedo_cv%20(1).pdf#toolbar=0" title="Vista previa del currículum de Luciana Oviedo"></iframe>
+</div>
+</div>
+<!-- LUXURY EDITORIAL RECRUITER CTA CARD -->
+<section id="contacto" class="p-5 rounded-2xl bg-gradient-to-br from-primary-fixed via-surface-container to-surface-container-low shadow-md flex flex-col space-y-4">
+<div class="flex flex-col space-y-1">
+<span class="font-label-sm text-label-sm text-on-primary-fixed-variant uppercase font-bold tracking-wider">Hiring Match</span>
+<h2 class="font-headline-md text-headline-md text-on-surface font-semibold leading-snug">
+        ¿Buscás talento analítico y proactivo para tu equipo?
+      </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        Disponible para roles junior en análisis de datos, administración, automatización de procesos y QA.
+      </p>
+</div>
+<div class="flex flex-col space-y-2 pt-1">
+<a class="h-12 px-5 rounded-full bg-on-background text-surface font-title-md text-title-md flex items-center justify-center gap-2 shadow-sm hover:bg-primary transition-all active:scale-[0.99]" href="https://wa.me/541165721727?text=Hola%20Luciana,%20vi%20tu%20perfil%20y%20me%20gustar%C3%ADa%20coordinar%20una%20entrevista" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+<span class="">Mensaje directo por WhatsApp</span>
+</a>
+<div class="grid grid-cols-2 gap-2">
+<a class="h-11 px-3 rounded-full bg-surface-container-lowest text-on-surface font-label-lg text-label-lg flex items-center justify-center gap-1.5 shadow-sm hover:bg-surface-container transition-all" href="mailto:loviedowanuffelen@gmail.com">
+<span class="material-symbols-outlined text-[17px] text-primary">send</span>
+<span class="truncate">Enviar Correo</span>
+</a>
+<button class="h-11 px-3 rounded-full bg-surface-container-lowest text-on-surface font-label-lg text-label-lg flex items-center justify-center gap-1.5 shadow-sm hover:bg-surface-container transition-all" id="copy-btn" onclick="copyContactData()">
+<span class="material-symbols-outlined text-[17px] text-primary" id="copy-icon">content_copy</span>
+<span class="truncate" id="copy-text">Copiar Datos</span>
+</button>
+</div>
+</div>
+</section>
+</div>
+<script>
+  function filterSkills(category, btnElement) {
+    const tabs = document.querySelectorAll('.skill-tab');
+    tabs.forEach(tab => {
+      tab.classList.remove('bg-on-background', 'text-surface');
+      tab.classList.add('bg-surface-container-high', 'text-on-surface');
+    });
+    btnElement.classList.remove('bg-surface-container-high', 'text-on-surface');
+    btnElement.classList.add('bg-on-background', 'text-surface');
 
-			<main className="py-12 px-4 md:px-6 lg:px-8">
-              <div className="container mx-auto max-w-5xl">
-                <section className="mb-12" id="aboutMe">
-				<div class="video-container2">
-                  <h2 className="text-3xl font-bold mb-4" >Let me introduce myself</h2>
-                  <p className="text-lg text-muted-foreground">
-                 I am currently studying a Bachelor's degree in Systems at the National University of General Sarmiento 
-				 (municipality of Malvinas Argentinas). Although I am still in the process of completing my degree, my enthusiasm for technology and programming grows every day. 
-				 Currently, I am seeking opportunities to apply my knowledge and skills in a professional environment.
-				 My journey into the world of systems began with a fascination with how things work behind the screen. 
-				 This curiosity has led me to delve deeper into various programming languages ​​and technologies, always looking for new challenges and ways to learn.
-				 </p>
-				  <h2 className="text-3xl font-bold mb-4">Hobbies and interests</h2>
-                  <p className="text-lg text-muted-foreground">
-                 Outside of academics, I like to stay active and fit by training regularly. In addition, I am committed to my continuous professional development, 
-				 so I dedicate part of my free time to continue learning about the latest trends and technologies in the field of systems.</p>
-				  <h2 className="text-3xl font-bold mb-4"> Career goals</h2>
-                  <p className="text-lg text-muted-foreground">
-                 I would really like to contribute my knowledge in a work environment. I am looking for an opportunity where I can contribute to the success of the team, 
-				 while continuing to learn and grow as a professional.
-				 <b>Thank you</b> for taking the time to get to know me. If you have any questions or would like to discuss possible collaboration opportunities, please do not hesitate to contact me.</p>
-				<video autoplay muted loop id="background-video">
-                        <source src="img/back2.mp4" type="video/mp4">
-                        Tu navegador no soporta la etiqueta de video.
-                    </video>
-				</div>
-				</section>
-				<br>
-				
-                <section className="mb-12" id="tabla">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-				  <div class="video-container3">
-				  <div class="container text-justify">
-					<div class="row">
- 					   <div class="col text-center">
-                  <h2 className="text-3xl font-bold mb-4" id="contacMe">Contact me</h2>
-				  <div>
-                     <a href="mailto:lucianaoviedodanielawanuffelen@gmail.com">
- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
-  <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z"/>
-  <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
-</svg></a>
-<p className="text-muted-foreground">lucianaoviedodanielawanuffelen@gmail.com</p>
-                    </div>
-                    <div>
-					<a href="https://www.linkedin.com/in/lucianaoviedowanuffelen/">
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
-</svg></a>
-<p className="text-muted-foreground">www.linkedin.com/in/lucianaoviedowanuffelen/</p>
-					  </div>
-					  <div>
-<a href="<a href="https://www.linkedin.com/in/lucianaoviedowanuffelen/">
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-</svg></a>
-<p className="text-muted-foreground">github.com/Luchy-code</p>
-                    </div>
-					</div>
-					   
-  				       <div class="col">
-					   <h2 className="text-3xl font-bold mb-4 " id="strength">Strengths</h2>
-				  <div>
-				  <ul>
-				  <li>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-flower3" viewBox="0 0 16 16">
-<path d="M11.424 8c.437-.052.811-.136 1.04-.268a2 2 0 0 0-2-3.464c-.229.132-.489.414-.752.767C9.886 4.63 10 4.264 10 4a2 2 0 1 0-4 0c0 .264.114.63.288 1.035-.263-.353-.523-.635-.752-.767a2 2 0 0 0-2 3.464c.229.132.603.216 1.04.268-.437.052-.811.136-1.04.268a2 2 0 1 0 2 3.464c.229-.132.489-.414.752-.767C6.114 11.37 6 11.736 6 12a2 2 0 1 0 4 0c0-.264-.114-.63-.288-1.035.263.353.523.635.752.767a2 2 0 1 0 2-3.464c-.229-.132-.603-.216-1.04-.268M9 4a2 2 0 0 1-.045.205q-.059.2-.183.484a13 13 0 0 1-.637 1.223L8 6.142l-.135-.23a13 13 0 0 1-.637-1.223 4 4 0 0 1-.183-.484A2 2 0 0 1 7 4a1 1 0 1 1 2 0M3.67 5.5a1 1 0 0 1 1.366-.366 2 2 0 0 1 .156.142q.142.15.326.4c.245.333.502.747.742 1.163l.13.232-.265.002a13 13 0 0 1-1.379-.06 4 4 0 0 1-.51-.083 2 2 0 0 1-.2-.064A1 1 0 0 1 3.67 5.5m1.366 5.366a1 1 0 0 1-1-1.732l.047-.02q.055-.02.153-.044.202-.048.51-.083a13 13 0 0 1 1.379-.06q.135 0 .266.002l-.131.232c-.24.416-.497.83-.742 1.163a4 4 0 0 1-.327.4 2 2 0 0 1-.155.142M9 12a1 1 0 0 1-2 0 2 2 0 0 1 .045-.206q.058-.198.183-.483c.166-.378.396-.808.637-1.223L8 9.858l.135.23c.241.415.47.845.637 1.223q.124.285.183.484A1.3 1.3 0 0 1 9 12m3.33-6.5a1 1 0 0 1-.366 1.366 2 2 0 0 1-.2.064q-.202.048-.51.083c-.412.045-.898.061-1.379.06q-.135 0-.266-.002l.131-.232c.24-.416.497-.83.742-1.163a4 4 0 0 1 .327-.4q.07-.074.114-.11l.041-.032a1 1 0 0 1 1.366.366m-1.366 5.366a2 2 0 0 1-.155-.141 4 4 0 0 1-.327-.4A13 13 0 0 1 9.74 9.16l-.13-.232.265-.002c.48-.001.967.015 1.379.06q.308.035.51.083.098.024.153.044l.048.02a1 1 0 1 1-1 1.732zM8 9a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
-</svg> Adaptable</li>
-				  <li>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-flower3" viewBox="0 0 16 16">
-<path d="M11.424 8c.437-.052.811-.136 1.04-.268a2 2 0 0 0-2-3.464c-.229.132-.489.414-.752.767C9.886 4.63 10 4.264 10 4a2 2 0 1 0-4 0c0 .264.114.63.288 1.035-.263-.353-.523-.635-.752-.767a2 2 0 0 0-2 3.464c.229.132.603.216 1.04.268-.437.052-.811.136-1.04.268a2 2 0 1 0 2 3.464c.229-.132.489-.414.752-.767C6.114 11.37 6 11.736 6 12a2 2 0 1 0 4 0c0-.264-.114-.63-.288-1.035.263.353.523.635.752.767a2 2 0 1 0 2-3.464c-.229-.132-.603-.216-1.04-.268M9 4a2 2 0 0 1-.045.205q-.059.2-.183.484a13 13 0 0 1-.637 1.223L8 6.142l-.135-.23a13 13 0 0 1-.637-1.223 4 4 0 0 1-.183-.484A2 2 0 0 1 7 4a1 1 0 1 1 2 0M3.67 5.5a1 1 0 0 1 1.366-.366 2 2 0 0 1 .156.142q.142.15.326.4c.245.333.502.747.742 1.163l.13.232-.265.002a13 13 0 0 1-1.379-.06 4 4 0 0 1-.51-.083 2 2 0 0 1-.2-.064A1 1 0 0 1 3.67 5.5m1.366 5.366a1 1 0 0 1-1-1.732l.047-.02q.055-.02.153-.044.202-.048.51-.083a13 13 0 0 1 1.379-.06q.135 0 .266.002l-.131.232c-.24.416-.497.83-.742 1.163a4 4 0 0 1-.327.4 2 2 0 0 1-.155.142M9 12a1 1 0 0 1-2 0 2 2 0 0 1 .045-.206q.058-.198.183-.483c.166-.378.396-.808.637-1.223L8 9.858l.135.23c.241.415.47.845.637 1.223q.124.285.183.484A1.3 1.3 0 0 1 9 12m3.33-6.5a1 1 0 0 1-.366 1.366 2 2 0 0 1-.2.064q-.202.048-.51.083c-.412.045-.898.061-1.379.06q-.135 0-.266-.002l.131-.232c.24-.416.497-.83.742-1.163a4 4 0 0 1 .327-.4q.07-.074.114-.11l.041-.032a1 1 0 0 1 1.366.366m-1.366 5.366a2 2 0 0 1-.155-.141 4 4 0 0 1-.327-.4A13 13 0 0 1 9.74 9.16l-.13-.232.265-.002c.48-.001.967.015 1.379.06q.308.035.51.083.098.024.153.044l.048.02a1 1 0 1 1-1 1.732zM8 9a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
-</svg> Active listener</li>
-				  <li>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-flower3" viewBox="0 0 16 16">
-<path d="M11.424 8c.437-.052.811-.136 1.04-.268a2 2 0 0 0-2-3.464c-.229.132-.489.414-.752.767C9.886 4.63 10 4.264 10 4a2 2 0 1 0-4 0c0 .264.114.63.288 1.035-.263-.353-.523-.635-.752-.767a2 2 0 0 0-2 3.464c.229.132.603.216 1.04.268-.437.052-.811.136-1.04.268a2 2 0 1 0 2 3.464c.229-.132.489-.414.752-.767C6.114 11.37 6 11.736 6 12a2 2 0 1 0 4 0c0-.264-.114-.63-.288-1.035.263.353.523.635.752.767a2 2 0 1 0 2-3.464c-.229-.132-.603-.216-1.04-.268M9 4a2 2 0 0 1-.045.205q-.059.2-.183.484a13 13 0 0 1-.637 1.223L8 6.142l-.135-.23a13 13 0 0 1-.637-1.223 4 4 0 0 1-.183-.484A2 2 0 0 1 7 4a1 1 0 1 1 2 0M3.67 5.5a1 1 0 0 1 1.366-.366 2 2 0 0 1 .156.142q.142.15.326.4c.245.333.502.747.742 1.163l.13.232-.265.002a13 13 0 0 1-1.379-.06 4 4 0 0 1-.51-.083 2 2 0 0 1-.2-.064A1 1 0 0 1 3.67 5.5m1.366 5.366a1 1 0 0 1-1-1.732l.047-.02q.055-.02.153-.044.202-.048.51-.083a13 13 0 0 1 1.379-.06q.135 0 .266.002l-.131.232c-.24.416-.497.83-.742 1.163a4 4 0 0 1-.327.4 2 2 0 0 1-.155.142M9 12a1 1 0 0 1-2 0 2 2 0 0 1 .045-.206q.058-.198.183-.483c.166-.378.396-.808.637-1.223L8 9.858l.135.23c.241.415.47.845.637 1.223q.124.285.183.484A1.3 1.3 0 0 1 9 12m3.33-6.5a1 1 0 0 1-.366 1.366 2 2 0 0 1-.2.064q-.202.048-.51.083c-.412.045-.898.061-1.379.06q-.135 0-.266-.002l.131-.232c.24-.416.497-.83.742-1.163a4 4 0 0 1 .327-.4q.07-.074.114-.11l.041-.032a1 1 0 0 1 1.366.366m-1.366 5.366a2 2 0 0 1-.155-.141 4 4 0 0 1-.327-.4A13 13 0 0 1 9.74 9.16l-.13-.232.265-.002c.48-.001.967.015 1.379.06q.308.035.51.083.098.024.153.044l.048.02a1 1 0 1 1-1 1.732zM8 9a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
-</svg> Responsible</li>
-				  <li>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-flower3" viewBox="0 0 16 16">
-<path d="M11.424 8c.437-.052.811-.136 1.04-.268a2 2 0 0 0-2-3.464c-.229.132-.489.414-.752.767C9.886 4.63 10 4.264 10 4a2 2 0 1 0-4 0c0 .264.114.63.288 1.035-.263-.353-.523-.635-.752-.767a2 2 0 0 0-2 3.464c.229.132.603.216 1.04.268-.437.052-.811.136-1.04.268a2 2 0 1 0 2 3.464c.229-.132.489-.414.752-.767C6.114 11.37 6 11.736 6 12a2 2 0 1 0 4 0c0-.264-.114-.63-.288-1.035.263.353.523.635.752.767a2 2 0 1 0 2-3.464c-.229-.132-.603-.216-1.04-.268M9 4a2 2 0 0 1-.045.205q-.059.2-.183.484a13 13 0 0 1-.637 1.223L8 6.142l-.135-.23a13 13 0 0 1-.637-1.223 4 4 0 0 1-.183-.484A2 2 0 0 1 7 4a1 1 0 1 1 2 0M3.67 5.5a1 1 0 0 1 1.366-.366 2 2 0 0 1 .156.142q.142.15.326.4c.245.333.502.747.742 1.163l.13.232-.265.002a13 13 0 0 1-1.379-.06 4 4 0 0 1-.51-.083 2 2 0 0 1-.2-.064A1 1 0 0 1 3.67 5.5m1.366 5.366a1 1 0 0 1-1-1.732l.047-.02q.055-.02.153-.044.202-.048.51-.083a13 13 0 0 1 1.379-.06q.135 0 .266.002l-.131.232c-.24.416-.497.83-.742 1.163a4 4 0 0 1-.327.4 2 2 0 0 1-.155.142M9 12a1 1 0 0 1-2 0 2 2 0 0 1 .045-.206q.058-.198.183-.483c.166-.378.396-.808.637-1.223L8 9.858l.135.23c.241.415.47.845.637 1.223q.124.285.183.484A1.3 1.3 0 0 1 9 12m3.33-6.5a1 1 0 0 1-.366 1.366 2 2 0 0 1-.2.064q-.202.048-.51.083c-.412.045-.898.061-1.379.06q-.135 0-.266-.002l.131-.232c.24-.416.497-.83.742-1.163a4 4 0 0 1 .327-.4q.07-.074.114-.11l.041-.032a1 1 0 0 1 1.366.366m-1.366 5.366a2 2 0 0 1-.155-.141 4 4 0 0 1-.327-.4A13 13 0 0 1 9.74 9.16l-.13-.232.265-.002c.48-.001.967.015 1.379.06q.308.035.51.083.098.024.153.044l.048.02a1 1 0 1 1-1 1.732zM8 9a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
-</svg> Enthusiastic</li>
-				  <li>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-flower3" viewBox="0 0 16 16">
-<path d="M11.424 8c.437-.052.811-.136 1.04-.268a2 2 0 0 0-2-3.464c-.229.132-.489.414-.752.767C9.886 4.63 10 4.264 10 4a2 2 0 1 0-4 0c0 .264.114.63.288 1.035-.263-.353-.523-.635-.752-.767a2 2 0 0 0-2 3.464c.229.132.603.216 1.04.268-.437.052-.811.136-1.04.268a2 2 0 1 0 2 3.464c.229-.132.489-.414.752-.767C6.114 11.37 6 11.736 6 12a2 2 0 1 0 4 0c0-.264-.114-.63-.288-1.035.263.353.523.635.752.767a2 2 0 1 0 2-3.464c-.229-.132-.603-.216-1.04-.268M9 4a2 2 0 0 1-.045.205q-.059.2-.183.484a13 13 0 0 1-.637 1.223L8 6.142l-.135-.23a13 13 0 0 1-.637-1.223 4 4 0 0 1-.183-.484A2 2 0 0 1 7 4a1 1 0 1 1 2 0M3.67 5.5a1 1 0 0 1 1.366-.366 2 2 0 0 1 .156.142q.142.15.326.4c.245.333.502.747.742 1.163l.13.232-.265.002a13 13 0 0 1-1.379-.06 4 4 0 0 1-.51-.083 2 2 0 0 1-.2-.064A1 1 0 0 1 3.67 5.5m1.366 5.366a1 1 0 0 1-1-1.732l.047-.02q.055-.02.153-.044.202-.048.51-.083a13 13 0 0 1 1.379-.06q.135 0 .266.002l-.131.232c-.24.416-.497.83-.742 1.163a4 4 0 0 1-.327.4 2 2 0 0 1-.155.142M9 12a1 1 0 0 1-2 0 2 2 0 0 1 .045-.206q.058-.198.183-.483c.166-.378.396-.808.637-1.223L8 9.858l.135.23c.241.415.47.845.637 1.223q.124.285.183.484A1.3 1.3 0 0 1 9 12m3.33-6.5a1 1 0 0 1-.366 1.366 2 2 0 0 1-.2.064q-.202.048-.51.083c-.412.045-.898.061-1.379.06q-.135 0-.266-.002l.131-.232c.24-.416.497-.83.742-1.163a4 4 0 0 1 .327-.4q.07-.074.114-.11l.041-.032a1 1 0 0 1 1.366.366m-1.366 5.366a2 2 0 0 1-.155-.141 4 4 0 0 1-.327-.4A13 13 0 0 1 9.74 9.16l-.13-.232.265-.002c.48-.001.967.015 1.379.06q.308.035.51.083.098.024.153.044l.048.02a1 1 0 1 1-1 1.732zM8 9a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
-</svg> Ambitious</li>
-				<li>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-flower3" viewBox="0 0 16 16">
-<path d="M11.424 8c.437-.052.811-.136 1.04-.268a2 2 0 0 0-2-3.464c-.229.132-.489.414-.752.767C9.886 4.63 10 4.264 10 4a2 2 0 1 0-4 0c0 .264.114.63.288 1.035-.263-.353-.523-.635-.752-.767a2 2 0 0 0-2 3.464c.229.132.603.216 1.04.268-.437.052-.811.136-1.04.268a2 2 0 1 0 2 3.464c.229-.132.489-.414.752-.767C6.114 11.37 6 11.736 6 12a2 2 0 1 0 4 0c0-.264-.114-.63-.288-1.035.263.353.523.635.752.767a2 2 0 1 0 2-3.464c-.229-.132-.603-.216-1.04-.268M9 4a2 2 0 0 1-.045.205q-.059.2-.183.484a13 13 0 0 1-.637 1.223L8 6.142l-.135-.23a13 13 0 0 1-.637-1.223 4 4 0 0 1-.183-.484A2 2 0 0 1 7 4a1 1 0 1 1 2 0M3.67 5.5a1 1 0 0 1 1.366-.366 2 2 0 0 1 .156.142q.142.15.326.4c.245.333.502.747.742 1.163l.13.232-.265.002a13 13 0 0 1-1.379-.06 4 4 0 0 1-.51-.083 2 2 0 0 1-.2-.064A1 1 0 0 1 3.67 5.5m1.366 5.366a1 1 0 0 1-1-1.732l.047-.02q.055-.02.153-.044.202-.048.51-.083a13 13 0 0 1 1.379-.06q.135 0 .266.002l-.131.232c-.24.416-.497.83-.742 1.163a4 4 0 0 1-.327.4 2 2 0 0 1-.155.142M9 12a1 1 0 0 1-2 0 2 2 0 0 1 .045-.206q.058-.198.183-.483c.166-.378.396-.808.637-1.223L8 9.858l.135.23c.241.415.47.845.637 1.223q.124.285.183.484A1.3 1.3 0 0 1 9 12m3.33-6.5a1 1 0 0 1-.366 1.366 2 2 0 0 1-.2.064q-.202.048-.51.083c-.412.045-.898.061-1.379.06q-.135 0-.266-.002l.131-.232c.24-.416.497-.83.742-1.163a4 4 0 0 1 .327-.4q.07-.074.114-.11l.041-.032a1 1 0 0 1 1.366.366m-1.366 5.366a2 2 0 0 1-.155-.141 4 4 0 0 1-.327-.4A13 13 0 0 1 9.74 9.16l-.13-.232.265-.002c.48-.001.967.015 1.379.06q.308.035.51.083.098.024.153.044l.048.02a1 1 0 1 1-1 1.732zM8 9a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
-</svg> Organized</li>
-				<li>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-flower3" viewBox="0 0 16 16">
-<path d="M11.424 8c.437-.052.811-.136 1.04-.268a2 2 0 0 0-2-3.464c-.229.132-.489.414-.752.767C9.886 4.63 10 4.264 10 4a2 2 0 1 0-4 0c0 .264.114.63.288 1.035-.263-.353-.523-.635-.752-.767a2 2 0 0 0-2 3.464c.229.132.603.216 1.04.268-.437.052-.811.136-1.04.268a2 2 0 1 0 2 3.464c.229-.132.489-.414.752-.767C6.114 11.37 6 11.736 6 12a2 2 0 1 0 4 0c0-.264-.114-.63-.288-1.035.263.353.523.635.752.767a2 2 0 1 0 2-3.464c-.229-.132-.603-.216-1.04-.268M9 4a2 2 0 0 1-.045.205q-.059.2-.183.484a13 13 0 0 1-.637 1.223L8 6.142l-.135-.23a13 13 0 0 1-.637-1.223 4 4 0 0 1-.183-.484A2 2 0 0 1 7 4a1 1 0 1 1 2 0M3.67 5.5a1 1 0 0 1 1.366-.366 2 2 0 0 1 .156.142q.142.15.326.4c.245.333.502.747.742 1.163l.13.232-.265.002a13 13 0 0 1-1.379-.06 4 4 0 0 1-.51-.083 2 2 0 0 1-.2-.064A1 1 0 0 1 3.67 5.5m1.366 5.366a1 1 0 0 1-1-1.732l.047-.02q.055-.02.153-.044.202-.048.51-.083a13 13 0 0 1 1.379-.06q.135 0 .266.002l-.131.232c-.24.416-.497.83-.742 1.163a4 4 0 0 1-.327.4 2 2 0 0 1-.155.142M9 12a1 1 0 0 1-2 0 2 2 0 0 1 .045-.206q.058-.198.183-.483c.166-.378.396-.808.637-1.223L8 9.858l.135.23c.241.415.47.845.637 1.223q.124.285.183.484A1.3 1.3 0 0 1 9 12m3.33-6.5a1 1 0 0 1-.366 1.366 2 2 0 0 1-.2.064q-.202.048-.51.083c-.412.045-.898.061-1.379.06q-.135 0-.266-.002l.131-.232c.24-.416.497-.83.742-1.163a4 4 0 0 1 .327-.4q.07-.074.114-.11l.041-.032a1 1 0 0 1 1.366.366m-1.366 5.366a2 2 0 0 1-.155-.141 4 4 0 0 1-.327-.4A13 13 0 0 1 9.74 9.16l-.13-.232.265-.002c.48-.001.967.015 1.379.06q.308.035.51.083.098.024.153.044l.048.02a1 1 0 1 1-1 1.732zM8 9a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
-</svg>   Curious</li>
-				  </ul>
-				  </div>
-   				      </div>
-     		   		 <div class="col">
-					   <h2 className="text-3xl font-bold mb-4" id="weak">Weaknesses</h2>
-				  <div>
-				  <ul>
-				  <li>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-flower3" viewBox="0 0 16 16">
-<path d="M11.424 8c.437-.052.811-.136 1.04-.268a2 2 0 0 0-2-3.464c-.229.132-.489.414-.752.767C9.886 4.63 10 4.264 10 4a2 2 0 1 0-4 0c0 .264.114.63.288 1.035-.263-.353-.523-.635-.752-.767a2 2 0 0 0-2 3.464c.229.132.603.216 1.04.268-.437.052-.811.136-1.04.268a2 2 0 1 0 2 3.464c.229-.132.489-.414.752-.767C6.114 11.37 6 11.736 6 12a2 2 0 1 0 4 0c0-.264-.114-.63-.288-1.035.263.353.523.635.752.767a2 2 0 1 0 2-3.464c-.229-.132-.603-.216-1.04-.268M9 4a2 2 0 0 1-.045.205q-.059.2-.183.484a13 13 0 0 1-.637 1.223L8 6.142l-.135-.23a13 13 0 0 1-.637-1.223 4 4 0 0 1-.183-.484A2 2 0 0 1 7 4a1 1 0 1 1 2 0M3.67 5.5a1 1 0 0 1 1.366-.366 2 2 0 0 1 .156.142q.142.15.326.4c.245.333.502.747.742 1.163l.13.232-.265.002a13 13 0 0 1-1.379-.06 4 4 0 0 1-.51-.083 2 2 0 0 1-.2-.064A1 1 0 0 1 3.67 5.5m1.366 5.366a1 1 0 0 1-1-1.732l.047-.02q.055-.02.153-.044.202-.048.51-.083a13 13 0 0 1 1.379-.06q.135 0 .266.002l-.131.232c-.24.416-.497.83-.742 1.163a4 4 0 0 1-.327.4 2 2 0 0 1-.155.142M9 12a1 1 0 0 1-2 0 2 2 0 0 1 .045-.206q.058-.198.183-.483c.166-.378.396-.808.637-1.223L8 9.858l.135.23c.241.415.47.845.637 1.223q.124.285.183.484A1.3 1.3 0 0 1 9 12m3.33-6.5a1 1 0 0 1-.366 1.366 2 2 0 0 1-.2.064q-.202.048-.51.083c-.412.045-.898.061-1.379.06q-.135 0-.266-.002l.131-.232c.24-.416.497-.83.742-1.163a4 4 0 0 1 .327-.4q.07-.074.114-.11l.041-.032a1 1 0 0 1 1.366.366m-1.366 5.366a2 2 0 0 1-.155-.141 4 4 0 0 1-.327-.4A13 13 0 0 1 9.74 9.16l-.13-.232.265-.002c.48-.001.967.015 1.379.06q.308.035.51.083.098.024.153.044l.048.02a1 1 0 1 1-1 1.732zM8 9a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
-</svg> Fear to fail</li>
-				  <li>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-flower3" viewBox="0 0 16 16">
-<path d="M11.424 8c.437-.052.811-.136 1.04-.268a2 2 0 0 0-2-3.464c-.229.132-.489.414-.752.767C9.886 4.63 10 4.264 10 4a2 2 0 1 0-4 0c0 .264.114.63.288 1.035-.263-.353-.523-.635-.752-.767a2 2 0 0 0-2 3.464c.229.132.603.216 1.04.268-.437.052-.811.136-1.04.268a2 2 0 1 0 2 3.464c.229-.132.489-.414.752-.767C6.114 11.37 6 11.736 6 12a2 2 0 1 0 4 0c0-.264-.114-.63-.288-1.035.263.353.523.635.752.767a2 2 0 1 0 2-3.464c-.229-.132-.603-.216-1.04-.268M9 4a2 2 0 0 1-.045.205q-.059.2-.183.484a13 13 0 0 1-.637 1.223L8 6.142l-.135-.23a13 13 0 0 1-.637-1.223 4 4 0 0 1-.183-.484A2 2 0 0 1 7 4a1 1 0 1 1 2 0M3.67 5.5a1 1 0 0 1 1.366-.366 2 2 0 0 1 .156.142q.142.15.326.4c.245.333.502.747.742 1.163l.13.232-.265.002a13 13 0 0 1-1.379-.06 4 4 0 0 1-.51-.083 2 2 0 0 1-.2-.064A1 1 0 0 1 3.67 5.5m1.366 5.366a1 1 0 0 1-1-1.732l.047-.02q.055-.02.153-.044.202-.048.51-.083a13 13 0 0 1 1.379-.06q.135 0 .266.002l-.131.232c-.24.416-.497.83-.742 1.163a4 4 0 0 1-.327.4 2 2 0 0 1-.155.142M9 12a1 1 0 0 1-2 0 2 2 0 0 1 .045-.206q.058-.198.183-.483c.166-.378.396-.808.637-1.223L8 9.858l.135.23c.241.415.47.845.637 1.223q.124.285.183.484A1.3 1.3 0 0 1 9 12m3.33-6.5a1 1 0 0 1-.366 1.366 2 2 0 0 1-.2.064q-.202.048-.51.083c-.412.045-.898.061-1.379.06q-.135 0-.266-.002l.131-.232c.24-.416.497-.83.742-1.163a4 4 0 0 1 .327-.4q.07-.074.114-.11l.041-.032a1 1 0 0 1 1.366.366m-1.366 5.366a2 2 0 0 1-.155-.141 4 4 0 0 1-.327-.4A13 13 0 0 1 9.74 9.16l-.13-.232.265-.002c.48-.001.967.015 1.379.06q.308.035.51.083.098.024.153.044l.048.02a1 1 0 1 1-1 1.732zM8 9a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
-</svg> Difficulty delegating</li>
-				  <li>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-flower3" viewBox="0 0 16 16">
-<path d="M11.424 8c.437-.052.811-.136 1.04-.268a2 2 0 0 0-2-3.464c-.229.132-.489.414-.752.767C9.886 4.63 10 4.264 10 4a2 2 0 1 0-4 0c0 .264.114.63.288 1.035-.263-.353-.523-.635-.752-.767a2 2 0 0 0-2 3.464c.229.132.603.216 1.04.268-.437.052-.811.136-1.04.268a2 2 0 1 0 2 3.464c.229-.132.489-.414.752-.767C6.114 11.37 6 11.736 6 12a2 2 0 1 0 4 0c0-.264-.114-.63-.288-1.035.263.353.523.635.752.767a2 2 0 1 0 2-3.464c-.229-.132-.603-.216-1.04-.268M9 4a2 2 0 0 1-.045.205q-.059.2-.183.484a13 13 0 0 1-.637 1.223L8 6.142l-.135-.23a13 13 0 0 1-.637-1.223 4 4 0 0 1-.183-.484A2 2 0 0 1 7 4a1 1 0 1 1 2 0M3.67 5.5a1 1 0 0 1 1.366-.366 2 2 0 0 1 .156.142q.142.15.326.4c.245.333.502.747.742 1.163l.13.232-.265.002a13 13 0 0 1-1.379-.06 4 4 0 0 1-.51-.083 2 2 0 0 1-.2-.064A1 1 0 0 1 3.67 5.5m1.366 5.366a1 1 0 0 1-1-1.732l.047-.02q.055-.02.153-.044.202-.048.51-.083a13 13 0 0 1 1.379-.06q.135 0 .266.002l-.131.232c-.24.416-.497.83-.742 1.163a4 4 0 0 1-.327.4 2 2 0 0 1-.155.142M9 12a1 1 0 0 1-2 0 2 2 0 0 1 .045-.206q.058-.198.183-.483c.166-.378.396-.808.637-1.223L8 9.858l.135.23c.241.415.47.845.637 1.223q.124.285.183.484A1.3 1.3 0 0 1 9 12m3.33-6.5a1 1 0 0 1-.366 1.366 2 2 0 0 1-.2.064q-.202.048-.51.083c-.412.045-.898.061-1.379.06q-.135 0-.266-.002l.131-.232c.24-.416.497-.83.742-1.163a4 4 0 0 1 .327-.4q.07-.074.114-.11l.041-.032a1 1 0 0 1 1.366.366m-1.366 5.366a2 2 0 0 1-.155-.141 4 4 0 0 1-.327-.4A13 13 0 0 1 9.74 9.16l-.13-.232.265-.002c.48-.001.967.015 1.379.06q.308.035.51.083.098.024.153.044l.048.02a1 1 0 1 1-1 1.732zM8 9a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
-</svg> Shy</li>
-				  </ul>
-				  </div>
-					</div>
- 					   </div>
-                    </div>
-					
-				  
-					<video autoplay muted loop id="background-video">
-                        <source src="img/back3.mp4" type="video/mp4">
-                        Tu navegador no soporta la etiqueta de video.
-                    </video>
-                  </div>
-				  </div>
-                </section>
-				<br>
-				 <section className="mb-12" id="tabla">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-				  <div class="video-container3">
-				  <div class="container text-justify">
-					<div class="row">
-  				       <div class="col">
-					   <h2 className="text-3xl font-bold mb-4 " id="academic">Education</h2>
-				  <div>
-				  <ul>
-				  <li>
-
-				  <li>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-award" viewBox="0 0 16 16">
-  <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z"/>
-  <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z"/>
-</svg> University education: "Universidad Nacional de General Sarmiento"</li>
-       <p>Period: 2021 - now </p>
-	   <li>
-	   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-award" viewBox="0 0 16 16">
-  <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z"/>
-  <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z"/>
-</svg> Technical secondary education: "Escuela de Educacion Secundaria Técnica N°1"</li>
-       <p>Period: 2014 - 2021</p>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-award" viewBox="0 0 16 16">
-  <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z"/>
-  <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z"/>
-</svg> English: "Instituto Highland" (3rd year)</li>
-	<p>Level: B2 </p>
-       <p>Period: 2014 - 2017 </p>
-				  </ul>
-				  </div>
-   				      </div>
-     		   		 <div class="col">
-					   <h2 className="text-3xl font-bold mb-4" id="train">Further training</h2>
-				  <div>
-				  <ul>
-				  <li>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
-  <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
-</svg>  Java</li>
-				  <li>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
-  <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
-</svg>  Web design (HTML5, CCS3, Bootstrap)</li>
-
-				  <li>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
-  <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
-</svg>  MySQL</li>
-				  <li>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
-  <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
-</svg>  Phyton</li>
- <li>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
-  <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
-</svg>  Office package</li>
- <li>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
-  <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
-</svg>  SAP ABAP</li>
-				  </ul>
-				  </div>
-					</div>
- 					   </div>
-                    </div>
-					
-				  
-					<video autoplay muted loop id="background-video">
-                        <source src="img/back5.mp4" type="video/mp4">
-                        Tu navegador no soporta la etiqueta de video.
-                    </video>
-                  </div>
-				  </div>
-                </section>
-				<br>
-<section class="mb-12">
-    <div class="video-container">
-      <h2 class="text-3xl font-bold mb-4" id="proyect" style="color: black; text-align: center;">Projects</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div id="carouselExampleIndicators" class="carousel slide">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="color: black;"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style="color: black;"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" style="color: black;"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4" style="color: black;"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5" style="color: black;"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6" style="color: black;"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7" style="color: black;"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8" style="color: black;"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <p id="tarjeta">
-			  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                  </svg>
-                <a href="https://github.com/Luchy-code/Phyton_game" id="linkeo">Phyton game "word search": </a>
-                It consists of three columns where letters fall out of order. 
-                The user's objective is to guess a word that is formed with those letters, if they win they add points, if they do not keep trying.
-              </p>
-            </div>
-            <div class="carousel-item">
-              <p id="tarjeta">
-			  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                  </svg>
-                <a href="https://github.com/Luchy-code/Java_game" id="linkeo">Java game: </a>
-                 Academic project based on Attack of Titans, the main character has circular movements, has limited lives, unlimited arrows, 
-                and from time to time serums sprout (used to attack and get closer to the titans). Regarding enemies, they respawn and can take lives from you. 
-               There is also a final boss.
-              </p>
-            </div>
-            <div class="carousel-item">
-              <p id="tarjeta">
-			  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                  </svg>
-                <a href="https://github.com/Luchy-code/Assambler_game"  id="linkeo">Assambler game: </a>
-                 It was a very difficult teamwork, in a low level language, each keyboard movement directs the ship, thus avoiding meteorites, it has 3 lives. 
-				 The goal is to end the game with at least one life. It was run on a virtual Raspberry machine.
-              </p>
-            </div>
-            <div class="carousel-item">
-              <p id="tarjeta"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                  </svg>
-                <a href="https://github.com/Luchy-code/Java_low-scale-system" id="linkeo">Java low scale system: </a>
-                 It was an academic project merging two languages ​​c and assembler. 
-                It is a simple calculator that operates basic arithmetic functions on two integer operands, it was run on Linux (Ubuntu virtual machine).
-              </p>
-            </div>
-			<div class="carousel-item">
-              <p id="tarjeta"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                  </svg>
-                <a href="https://github.com/Luchy-code/sistemaBasico.git" id="linkeo">PHP-phpMyAdmin low scale system: </a>
-                 It was a project of its own, it is a small responsive system with Bootstrap with login and logout 
-				connected to a phpMyAdmin database, where you can enter products and sales, these are shown in tables that can be ordered and searched.
-              </p>
-            </div>
-			<div class="carousel-item">
-              <p id="tarjeta"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                  </svg>
-                <a href="https://github.com/Luchy-code/juego_piedra-papel-tijera.git" id="linkeo">Java game "rock,paper,scissors": </a>
-                This is the traditional rock, paper, scissors game with Java's JFrame. Where the user plays against the computer until one of them reach 3 points. </p>
-            </div>
-			<div class="carousel-item">
-              <p id="tarjeta"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                  </svg>
-                <a href="https://github.com/Luchy-code/juego_Ahorcado_.git" id="linkeo">Phyton game "Hangman": </a>
-                It is a game in Python with two modes: normal and difficult. It has 7 attempts (the images change with each attempt) and 3 lives. 
-				Each time the user misses a letter, the attempts decrease, and after using all attempts, the user has 3 lives to continue playing. 
-				For each word guessed correctly, one point is added, and for each game lost, points are also added.</p>
-            </div>
-			<div class="carousel-item">
-              <p id="tarjeta"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                  </svg>
-                <a href="https://github.com/Luchy-code/juego_tateti.git" id="linkeo">C++ game "TicTacToe": </a>
-                It is a basic game in C++, it records when the user wins and when the machine wins, it has a button to restart the game, and it notifies me with a pop-up window 
-				if the user or the computer wins</p>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-      <video autoplay muted loop id="background-video">
-        <source src="img/back4.mp4" type="video/mp4">
-        Tu navegador no soporta la etiqueta de video.
-      </video>
-    </div>
-  </section>
-              </div>
-            </main>
-<br>
-            <footer className="py-6 px-4 md:px-6 lg:px-8 bg-primary text-primary-foreground" id="footer">
-              <div className="container mx-auto max-w-5xl text-center">
-                <p className="text-sm">&copy; 2024 Luciana Oviedo</p>
-              </div>
-            </footer>
-          </div>
-		  
-<!-- Google Translate Script -->
-  <script type="text/javascript">
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement({
-        pageLanguage: 'en', // El idioma predeterminado de la página
-        includedLanguages: 'en,es', // Los idiomas a los que se puede traducir (inglés y español)
-        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-      }, 'google_translate_element');
-    }
-  </script>
-  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
- <script>
-    window.addEventListener('scroll', () => {
-      const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight;
-      const scrolled = window.scrollY;
-      const progress = (scrolled / scrollableHeight) * 100;
-      const scrollToTopBtn = document.getElementById('scrollToTopBtn');
-      scrollToTopBtn.style.background = `linear-gradient(to top, #FF1493 ${progress}%, white ${progress}%)`;
-      if (progress > 0) {
-        scrollToTopBtn.classList.add('active');
+    const cards = document.querySelectorAll('#skills-grid .skill-card');
+    cards.forEach(card => {
+      if (category === 'all' || card.getAttribute('data-cat') === category) {
+        card.style.display = 'flex';
       } else {
-        scrollToTopBtn.classList.remove('active');
+        card.style.display = 'none';
       }
     });
+  }
 
-    function scrollToTop() {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
-    }
-  </script>
-</body>
-</html>
+  function copyContactData() {
+    const textToCopy = "Luciana Oviedo W. | (+54) 1165721727 | loviedowanuffelen@gmail.com";
+    navigator.clipboard.writeText(textToCopy).then(() => {
+      const copyText = document.getElementById('copy-text');
+      const copyIcon = document.getElementById('copy-icon');
+      copyText.innerText = "¡Copiado!";
+      copyIcon.innerText = "check";
+      setTimeout(() => {
+        copyText.innerText = "Copiar Datos";
+        copyIcon.innerText = "content_copy";
+      }, 2500);
+    });
+  }
+
+  function openCvPreview() {
+    const preview = document.getElementById('cv-preview');
+    preview.classList.remove('hidden');
+    preview.classList.add('flex');
+    document.body.style.overflow = 'hidden';
+    preview.querySelector('button[aria-label="Cerrar vista previa del CV"]').focus();
+  }
+
+  function closeCvPreview() {
+    const preview = document.getElementById('cv-preview');
+    preview.classList.add('hidden');
+    preview.classList.remove('flex');
+    document.body.style.overflow = '';
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelector('[data-path="curriculum-vitae"]').addEventListener('click', event => {
+      event.preventDefault();
+      openCvPreview();
+    });
+  });
+
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe pointer-events-none" data-active-classes="bg-on-background text-surface font-semibold shadow-[0_4px_20px_-2px_rgba(45,42,38,0.15)]"><div class="px-margin-mobile pb-3 pointer-events-auto"><div class="max-w-md mx-auto h-14 bg-surface-container-lowest/90 backdrop-blur-xl rounded-full shadow-[0_12px_32px_-4px_rgba(45,42,38,0.08),0_4px_12px_-2px_rgba(200,125,107,0.1)] px-2 flex items-center justify-between"><a aria-current="page" aria-label="Sobre mí" class="flex-1 h-11 min-h-[44px] rounded-full flex items-center justify-center gap-1.5 transition-all bg-on-background text-surface font-semibold shadow-[0_4px_20px_-2px_rgba(45,42,38,0.15)]" data-path="about" href="#sobre-mi"><span class="material-symbols-outlined text-[19px]">person</span><span class="font-label-sm text-label-sm uppercase tracking-wider">Sobre mí</span></a><a aria-label="Casos de Ingeniería" class="flex-1 h-11 min-h-[44px] rounded-full flex items-center justify-center gap-1.5 text-on-surface-variant hover:text-on-surface transition-all" data-path="projects" href="#proyectos"><span class="material-symbols-outlined text-[19px]">terminal</span><span class="font-label-sm text-label-sm uppercase tracking-wider">Proyectos</span></a><a aria-label="Curriculum Vitae" class="flex-1 h-11 min-h-[44px] rounded-full flex items-center justify-center gap-1.5 text-on-surface-variant hover:text-on-surface transition-all" data-path="curriculum-vitae" href="img/Luciana_Oviedo_cv%20(1).pdf" target="_blank" rel="noopener noreferrer"><span class="material-symbols-outlined text-[19px]">description</span><span class="font-label-sm text-label-sm uppercase tracking-wider">CV</span></a><a aria-label="Contacto Rápido" class="flex-1 h-11 min-h-[44px] rounded-full flex items-center justify-center gap-1.5 text-on-surface-variant hover:text-primary transition-all" data-path="quick-contact" href="#contacto"><span class="material-symbols-outlined text-[19px]">send</span><span class="font-label-sm text-label-sm uppercase tracking-wider">Contacto</span></a></div></div></nav>
+
+</body></html>
