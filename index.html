@@ -361,7 +361,7 @@
 </div>
 </div>
 </section>
-<section class="p-5 rounded-2xl bg-gradient-to-br from-primary-fixed via-surface-container to-surface-container-low shadow-md flex flex-col space-y-4">
+<section id="curriculum" class="p-5 rounded-2xl bg-gradient-to-br from-primary-fixed via-surface-container to-surface-container-low shadow-md flex flex-col space-y-4">
 <div class="flex flex-col space-y-1">
 <span class="font-label-sm text-label-sm text-on-primary-fixed-variant uppercase font-bold tracking-wider">Perfil profesional</span>
 <h2 class="font-headline-md text-headline-md text-on-surface font-semibold leading-snug">Currículum Vitae</h2>
@@ -650,16 +650,10 @@
     setActiveNavigation(initialActiveLink);
 
     navigationLinks.forEach(link => {
-      link.addEventListener('click', event => {
-        setActiveNavigation(link);
-        if (link.dataset.path === 'curriculum-vitae') {
-          event.preventDefault();
-          openCvPreview();
-        }
-      });
+      link.addEventListener('click', () => setActiveNavigation(link));
     });
   });
 
-</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe pointer-events-none" data-active-classes="bg-on-background text-surface font-semibold shadow-[0_4px_20px_-2px_rgba(45,42,38,0.15)]"><div class="px-margin-mobile pb-3 pointer-events-auto"><div class="max-w-md mx-auto h-14 bg-surface-container-lowest/90 backdrop-blur-xl rounded-full shadow-[0_12px_32px_-4px_rgba(45,42,38,0.08),0_4px_12px_-2px_rgba(200,125,107,0.1)] px-2 flex items-center justify-between"><a aria-current="page" aria-label="Sobre mí" class="flex-1 h-11 min-h-[44px] rounded-full flex items-center justify-center gap-1.5 transition-all bg-on-background text-surface font-semibold shadow-[0_4px_20px_-2px_rgba(45,42,38,0.15)]" data-path="about" href="#sobre-mi"><span class="material-symbols-outlined text-[19px]">person</span><span class="font-label-sm text-label-sm uppercase tracking-wider">Sobre mí</span></a><a aria-label="Casos de Ingeniería" class="flex-1 h-11 min-h-[44px] rounded-full flex items-center justify-center gap-1.5 text-on-surface-variant hover:bg-primary hover:text-white transition-all" data-path="projects" href="#proyectos"><span class="material-symbols-outlined text-[19px]">terminal</span><span class="font-label-sm text-label-sm uppercase tracking-wider">Proyectos</span></a><a aria-label="Curriculum Vitae" class="flex-1 h-11 min-h-[44px] rounded-full flex items-center justify-center gap-1.5 text-on-surface-variant hover:bg-primary hover:text-white transition-all" data-path="curriculum-vitae" href="img/Luciana_Oviedo_cv%20(1).pdf" target="_blank" rel="noopener noreferrer"><span class="material-symbols-outlined text-[19px]">description</span><span class="font-label-sm text-label-sm uppercase tracking-wider">CV</span></a><a aria-label="Contacto Rápido" class="flex-1 h-11 min-h-[44px] rounded-full flex items-center justify-center gap-1.5 text-on-surface-variant hover:bg-primary hover:text-white transition-all" data-path="quick-contact" href="#contacto"><span class="material-symbols-outlined text-[19px]">send</span><span class="font-label-sm text-label-sm uppercase tracking-wider">Contacto</span></a></div></div></nav>
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe pointer-events-none" data-active-classes="bg-on-background text-surface font-semibold shadow-[0_4px_20px_-2px_rgba(45,42,38,0.15)]"><div class="px-margin-mobile pb-3 pointer-events-auto"><div class="max-w-md mx-auto h-14 bg-surface-container-lowest/90 backdrop-blur-xl rounded-full shadow-[0_12px_32px_-4px_rgba(45,42,38,0.08),0_4px_12px_-2px_rgba(200,125,107,0.1)] px-2 flex items-center justify-between"><a aria-current="page" aria-label="Sobre mí" class="flex-1 h-11 min-h-[44px] rounded-full flex items-center justify-center gap-1.5 transition-all bg-on-background text-surface font-semibold shadow-[0_4px_20px_-2px_rgba(45,42,38,0.15)]" data-path="about" href="#sobre-mi"><span class="material-symbols-outlined text-[19px]">person</span><span class="font-label-sm text-label-sm uppercase tracking-wider">Sobre mí</span></a><a aria-label="Casos de Ingeniería" class="flex-1 h-11 min-h-[44px] rounded-full flex items-center justify-center gap-1.5 text-on-surface-variant hover:bg-primary hover:text-white transition-all" data-path="projects" href="#proyectos"><span class="material-symbols-outlined text-[19px]">terminal</span><span class="font-label-sm text-label-sm uppercase tracking-wider">Proyectos</span></a><a aria-label="Curriculum Vitae" class="flex-1 h-11 min-h-[44px] rounded-full flex items-center justify-center gap-1.5 text-on-surface-variant hover:bg-primary hover:text-white transition-all" data-path="curriculum-vitae" href="#curriculum"><span class="material-symbols-outlined text-[19px]">description</span><span class="font-label-sm text-label-sm uppercase tracking-wider">CV</span></a><a aria-label="Contacto Rápido" class="flex-1 h-11 min-h-[44px] rounded-full flex items-center justify-center gap-1.5 text-on-surface-variant hover:bg-primary hover:text-white transition-all" data-path="quick-contact" href="#contacto"><span class="material-symbols-outlined text-[19px]">send</span><span class="font-label-sm text-label-sm uppercase tracking-wider">Contacto</span></a></div></div></nav>
 
 </body></html>
